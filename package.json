@@ -1,0 +1,26 @@
+{
+  "name": "zoo_clone",
+  "version": "1.0.0",
+  "description": "CSS layout master class with nomadcoders. the zoo site clone",
+  "main": "index.js",
+  "repository": "https://github.com/deneb0723/zoo_clone.git",
+  "author": "denev <65989857+deneb0723@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^5.0.0"
+  }
+}
